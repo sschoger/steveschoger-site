@@ -6,6 +6,8 @@
 */
 module.exports = {
   theme: {},
-  variants: { opacity: [ "responsive", "group-hover", "hover", "focus" ]},
+  variants: { 
+  	opacity: [ "responsive", "group-hover", "hover", "focus" ],
+  },
   plugins: []
 }

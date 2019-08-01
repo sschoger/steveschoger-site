@@ -9,12 +9,12 @@
       </div>
     </div>
     <div class="lg:block">
-      <div class="w-full block lg:flex lg:justify-between lg:border-b lg:border-gray-400 mt-10 pb-6 text-gray-700 font-medium lg:text-lg">
-        <div class="lg:flex">
-          <nuxt-link to="/book" class="block mt-6 lg:mt-0 lg:mr-8 hover:text-gray-900">Book</nuxt-link>
-          <nuxt-link to="/projects" class="block mt-6 lg:mt-0 lg:mr-8 hover:text-gray-900">Projects</nuxt-link>
-          <nuxt-link to="/interviews" class="block mt-6 lg:mt-0 lg:mr-8 hover:text-gray-900">Interviews</nuxt-link>
-          <nuxt-link to="/speaking" class="block mt-6 lg:mt-0 lg:mr-8 hover:text-gray-900">Speaking</nuxt-link>
+      <div class="w-full block lg:flex lg:justify-between lg:border-b lg:border-gray-400 mt-10 text-gray-700 font-medium lg:text-lg">
+        <div class="lg:flex -mb-px">
+          <nuxt-link active-class="text-gray-900 border-gray-900" to="/book" class="block mt-6 pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Book</nuxt-link>
+          <nuxt-link active-class="text-gray-900 border-gray-900" to="/projects" class="block mt-6 pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Projects</nuxt-link>
+          <nuxt-link active-class="text-gray-900 border-gray-900" to="/interviews" class="block mt-6 pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Interviews</nuxt-link>
+          <nuxt-link active-class="text-gray-900 border-gray-900" to="/speaking" class="block mt-6 pb-6 border-b border-transparent lg:mt-0 lg:mr-8 hover:text-gray-900">Speaking</nuxt-link>
         </div>
         <div class="lg:flex">
           <a href="https://twitter.com/steveschoger" class="block mt-6 lg:mt-0 lg:ml-8 flex align-center hover:text-gray-900">
