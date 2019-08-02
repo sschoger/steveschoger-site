@@ -60,7 +60,7 @@ export default {
         {
           talkTitle: 'Refactoring UI',
           conference: 'Laracon AU',
-          conferenceUrl: '/',
+          conferenceUrl: 'https://laracon.com.au/',
           location: 'Sydney, AU',
           date: 'October 17 - 18, 2018',
           videoUrl: null,
