@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-5xl mx-auto px-8">
         <Header/>
-        <div class="mb-20 md:flex mt-6 md:mt-10 lg:mt-6 items-baseline md:border-t md:border-gray-400 md:pt-2 lg:border-t-0 lg:pt-0">
+        <div class="mb-20 md:flex mt-10 lg:mt-6 items-baseline md:border-t md:border-gray-400 md:pt-2 lg:border-t-0 lg:pt-0">
             <div class="w-full md:w-1/3">
                 <h2 class="font-medium sm:font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-900">Book</h2>
             </div>

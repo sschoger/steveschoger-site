@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-5xl mx-auto px-8">
     <Header/>
-    <div class="mb-20 md:flex mt-6 md:mt-10 lg:mt-6 items-baseline md:border-t md:border-gray-400 md:pt-2 lg:border-t-0 lg:pt-0">
+    <div class="mb-20 md:flex mt-10 lg:mt-6 items-baseline md:border-t md:border-gray-400 md:pt-2 lg:border-t-0 lg:pt-0">
       <div class="w-full md:w-1/3">
         <h2 class="font-medium sm:font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-900">Speaking</h2>
       </div>
@@ -21,7 +21,7 @@
                 </div>
               </div>
               <div class="flex text-gray-900 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-0">
-                <div class="lg:ml-8">
+                <div v-if="talk.videoUrl !== null" class="lg:ml-8">
                   <a :href="talk.videoUrl" class="flex items-center group hover:underline">
                     <div class="relative w-6 h-6">
                       <svg class="absolute group-hover:opacity-0 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@
                     <div class="mt-px ml-2 lg:hidden hover:border-b hover:border-gray-900">Watch Video</div>
                   </a>
                 </div>
-                <div class="ml-8">
+                <div v-if="talk.slidesUrl !== null" :class="{ 'ml-8': talk.videoUrl !== null }">
                   <a :href="talk.slidesUrl" class="flex items-center group hover:underline">
                     <div class="relative w-6 h-6">
                       <svg class="absolute group-hover:opacity-0 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +80,7 @@ export default {
           location: 'Amsterdam, NL',
           date: 'June 13 - 14, 2019',
           videoUrl: '/',
-          slidesUrl: '/',
+          slidesUrl: null,
         },
         {
           talkTitle: 'Practical Solutions to Common UI Design Problems (no slides)',
@@ -88,7 +88,7 @@ export default {
           conferenceUrl: '/',
           location: 'San Francisco, USA',
           date: 'April 21 - 22, 2019',
-          videoUrl: '/',
+          videoUrl: null,
           slidesUrl: '/',
         },
         {
@@ -106,8 +106,8 @@ export default {
           conferenceUrl: '/',
           location: 'Sydney, AU',
           date: 'October 17 - 18, 2018',
-          videoUrl: '/',
-          slidesUrl: '/',
+          videoUrl: null,
+          slidesUrl: null,
         },
         {
           talkTitle: '15 UI Design Tips in 15 Minutes',
