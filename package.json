@@ -11,10 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0",
     "nodemon": "^1.18.9"
   }
 }
