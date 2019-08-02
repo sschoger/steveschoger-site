@@ -7,7 +7,7 @@
         	<a v-if="link !== null" :href="link" class="hover:underline">{{ talk.talkTitle }}</a>
         </h3>
         <div class="flex flex-wrap text-gray-700 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-3">
-          <a href="/" class="hover:underline hover:text-gray-900">{{ talk.conference }}</a>
+          <a :href="talk.conferenceURL" class="hover:underline hover:text-gray-900">{{ talk.conference }}</a>
           <div class="mx-3 text-gray-500">•</div>
           <div>{{ talk.location }}</div>
           <div class="mx-3 text-gray-500">•</div>
