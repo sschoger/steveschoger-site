@@ -6,7 +6,7 @@
       <p class="mt-6 sm:mt-8 md:mt-10">I recently published a book and video course called <a href="https://refactoringui.com/book/" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">Refactoring UI</a> with my friend <a href="https://twitter.com/adamwathan" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">Adam Wathan</a>. It teaches everything we know about designing for the web, packed into a single comprehensive resource.</p>
       <p class="mt-6 sm:mt-8 md:mt-10">I’m not currently taking on new client work but feel free to <a href="/" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">contact me</a> for any other inquiries.</p>
     </div>
-    <p class="border-gray-400 border-t pt-6 mt-6 sm:mt-8 md:mt-10 mb-20 text-gray-700 text-sm sm:text-base lg:text-lg">This website was built with <a href="https://tailwindcss.com/" class="border-b border-gray-900 pb-px text-gray-900">TailwindCSS</a> and <a href="https://nuxtjs.org/" class="border-b border-gray-900 pb-px text-gray-900">Nuxt.js</a>. It uses Graphik by Commercial Type</p>
+    <p class="border-gray-400 border-t pt-6 mt-6 sm:mt-8 md:mt-10 mb-20 text-gray-700 text-sm sm:text-base lg:text-lg">This website was built with <a href="https://tailwindcss.com/" class="border-b border-gray-900 pb-px text-gray-900">TailwindCSS</a> and <a href="https://nuxtjs.org/" class="border-b border-gray-900 pb-px text-gray-900">Nuxt.js</a>.</p>
   </div>
 </template>
 
