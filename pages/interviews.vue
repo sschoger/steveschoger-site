@@ -14,7 +14,7 @@
                 <h3 class="text-gray-900 sm:text-lg lg:text-xl"><a :href="interview.podcastUrl" class="hover:underline">{{ interview.podcast }} <span class="text-gray-700">{{ interview.episode }}</span></a></h3>
                 <div class="flex text-gray-700 text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 lg:mt-3">
                   <div><span class="italic">with</span> <a :href="interview.hostUrl" class="hover:underline">{{ interview.host }}</a></div>
-                  <div class="mx-3 lg:mx-4 text-gray-500">•</div>
+                  <div class="mx-3 text-gray-500">•</div>
                   <div>{{ interview.date }}</div>
                 </div>
               </div>
