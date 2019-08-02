@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-5xl mx-auto px-8">
+  <div class="max-w-5xl mx-auto px-6 md:px-8">
     <Header/>
     <div class="text-xl sm:text-2xl md:text-3xl lg:text-4xl md:font-light text-gray-700">
       <p class="mt-10">Hey! I’m Steve Schoger, a visual designer from Canada. Many people know me as the guy who shares <a href="https://twitter.com/i/moments/994601867987619840?s=13" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">design tips</a> on <a href="https://twitter.com/steveschoger" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">Twitter</a> or <a href="https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">refactors UI’s</a> on <a href="https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA" class="border-b border-gray-900 pb-px md:pb-1 text-gray-900">YouTube</a>.</p>

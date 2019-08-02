@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-5xl mx-auto px-8">
+  <div class="max-w-5xl mx-auto px-6 md:px-8">
     <Header />
     <div class="mb-20 md:flex mt-10 lg:mt-6 items-baseline md:border-t md:border-gray-400 md:pt-2 lg:border-t-0 lg:pt-0">
       <div class="w-full md:w-1/3">
