@@ -6,7 +6,10 @@
         <h2 class="font-medium sm:font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-900">Projects</h2>
       </div>
       <div class="w-full md:w-2/3 mt-6">
-        <p class="text-lg sm:text-xl lg:text-2xl text-gray-700">I've been a guest a handful of podcasts where I engaged in conversations about everything from design tips to my life's story. Here are some of my favorite interviews: </p>
+        <div class="text-lg sm:text-xl lg:text-2xl text-gray-700">
+          <p>Currently I'm working with my friend <a>Adam Wathan</a> to help improve and grow <a>TailwindCSS</a> — and utility-first CSS framework for building custom user interfaces that he created.</p>
+          <p class="mt-4">Here are a few of my favorite projects that I've previously made:</p>
+        </div>
         <div class="mt-6 lg:mt-10 border-b border-gray-400">
           <div class="border-t border-gray-400 py-6 sm:py-8 lg:py-10" v-for="project in projects">
             <div class="lg:flex items-center justify-between">
