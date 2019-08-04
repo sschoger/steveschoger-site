@@ -6,7 +6,7 @@
         <h2 class="font-medium sm:font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-900">Interviews</h2>
       </div>
       <div class="w-full md:w-2/3 mt-6">
-        <p class="text-lg sm:text-xl lg:text-2xl text-gray-700">I've been a guest a handful of podcasts where I engaged in conversations about everything from design tips to my life's story. Here are some of my favorite interviews: </p>
+        <p class="text-lg sm:text-xl lg:text-2xl text-gray-700">I've been a guest on a handful of podcasts where I engaged in conversations about everything from design tips to my life's story. Here are some of my favorite interviews: </p>
         <div class="mt-6 lg:mt-10 border-b border-gray-400">
           <div class="border-t border-gray-400 py-6 sm:py-8 lg:py-10" v-for="interview in interviews">
             <div class="lg:flex items-center justify-between">
@@ -71,7 +71,7 @@ export default {
           episode: 'Episode 103: Design Q&A + Refactoring UI Details',
           host: 'Adam Wathan',
           hostUrl: 'https://twitter.com/adamwathan',
-          date: 'December 5, 2019',
+          date: 'December 5, 2018',
           podcastUrl: 'http://www.fullstackradio.com/103',
         },
         {

@@ -82,7 +82,7 @@ export default {
           location: 'Online',
           date: 'February 2, 2019',
           videoUrl: 'https://laracon.net/2018',
-          slidesUrl: 'https://speakerdeck.com/sschoger/the-little-details-of-ui-design',
+          slidesUrl: 'https://speakerdeck.com/steveschoger/the-little-details-of-ui-design',
         },
       ]
     }
