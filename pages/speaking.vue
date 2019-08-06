@@ -37,7 +37,7 @@ export default {
           location: 'Amsterdam, NL',
           date: 'June 13 - 14, 2019',
           videoUrl: 'https://youtu.be/7Z9rrryIOC4',
-          slidesUrl: null,
+          slidesUrl: 'https://speakerdeck.com/steveschoger/practical-solutions-to-common-ui-design-problems',
         },
         {
           talkTitle: 'Practical Solutions to Common UI Design Problems (no slides)',
@@ -55,7 +55,7 @@ export default {
           location: 'Online',
           date: 'March 6, 2019',
           videoUrl: null,
-          slidesUrl: null,
+          slidesUrl: 'https://speakerdeck.com/steveschoger/practical-solutions-to-common-ui-design-problems',
         },
         {
           talkTitle: 'Refactoring UI',
